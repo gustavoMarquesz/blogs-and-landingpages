@@ -1,0 +1,87 @@
+
+
+@media screen and (min-width: 1360px){
+    .hello{
+        width: 1350px;
+        height: 500px;
+        min-height: 800px;
+    }
+
+    .content-one p{
+        width: 900px;
+        position: relative;
+    }
+
+    .content-two p{
+        width: 900px;
+        position: relative;
+    }
+    .marques{
+        width: 1350px;
+        min-height: 200px;   
+    }
+    .marques p{
+        width: 500px;
+    }
+
+    .control-forms{
+        bottom: 70px;
+        right: 70px;
+    }
+    .control-forms form{
+        min-width: 1396px;
+        height: 800px;
+        border-radius: 0%;
+    }
+}
+
+
+@media screen and (min-width: 1440px){
+    .hello{
+        width: 1440px;
+        min-height: 800px;
+    }
+    .marques{
+        width: 1440px;
+        min-height: 200px;   
+    }
+    .control-forms form{
+        min-width: 1489px;
+        height: 800px;
+        border-radius: 0%;
+    }
+}
+
+@media screen and (min-width: 1680px){
+    .hello{
+        width: 1680px;
+        min-height: 800px;
+        min-height: 600px;
+    }
+    .marques{
+        width: 1680px;
+        min-height: 200px;   
+    }
+    .control-forms form{
+        min-width: 1688px;
+        height: 800px;
+        border-radius: 0%;
+    }
+}
+
+@media screen and (min-width: 1900px){
+    .hello{
+        width: 1900px;
+        min-height: 800px;
+        min-height: 600px;
+    }
+    .marques{
+        width: 1900px;
+        min-height: 200px;   
+    }
+    .control-forms form{
+        min-width: 1978px;
+        height: 800px;
+        border-radius: 0%;
+    }
+}

@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    color:black;
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    font-weight: 100%;
+    gap: 40px;
+    padding: 10px; 
+    background-position: right bottom;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    min-width: 375px ;
+}
+h1{
+    font-family: 'Kanit', sans-serif;
+}
+h2{
+    font-family: 'Kanit', sans-serif;
+}
+
+.redes{
+    display: flex;
+    gap: 30px;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+.cabecalho-menu{
+    gap: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 120px;
+    left: -15px;
+    position: fixed;
+    top: 250px;
+}
+.cabecalho-menu :hover{
+    transform: translate(-2px, -2px);
+    transition:  0.4s;
+}
+
+.content-one{
+    display: flex;
+    gap: 35px;
+    padding: 2%;
+    flex-direction: column;
+    transition: 0.5s;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-two{
+    display: flex;
+    gap: 35px;
+    padding: 2%;
+    border-radius: 15px;
+    flex-direction: column;
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+.marques{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f294d;
+    height: 600px;
+    width: 361px;
+    padding: 2%;
+    right: 10px;
+    position: relative;
+}
+
+.marques h2, h3{
+    text-align: center; 
+    color: #fff;
+}
+.marques p{
+    color: #fff;
+    text-align: center;
+}
+
+.marques a{
+    border-bottom: 2px solid;
+    text-decoration: none;
+    border-color: chartreuse;
+    cursor: pointer;
+    color: #fff;
+}
+.marques h2{
+    border-bottom: 2px solid;
+    border-color:chartreuse;
+    border-top: 100px;
+}
+
+span{
+    color: chartreuse;
+    border-bottom: 2px solid;
+}
+
+.control-forms{
+    display: flex;
+    max-width: 200px;
+    padding-right: 355px;
+    position: relative;
+    font-size: 12px;
+}
+.forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column; 
+    font-family: 'Roboto Mono', monospace;
+    height: 600px;
+    padding: 2%;
+    left: 30%;
+    position: relative;
+    gap: 15px;
+    border-radius: 15px;
+    top: 30px;
+    transition: 2s;
+}
+.forms:hover{
+    background-color: #158e8f;
+}
+.forms h1{
+    font-size: 60px;
+}
+
+.forms button{
+    min-width: 200px;
+    min-height: 30px;
+    border-radius: 15px;
+}
+.f-h3{
+    display: flex;
+    font-size: 20px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    border-left: 2px solid;
+}
+
+.forms div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 350px;
+    top: 45px;
+    position: relative;
+
+}
+
+.forms input{
+    height: 30px;
+    width: 200px;
+    padding: 2%;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.forms input:hover{
+    width: 210px;
+}
+
+.forms textarea{
+    padding: 1%;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    bottom: 10px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.hello{
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1f294d;
+    width: 375px;
+    min-height: 500px;
+    color: aliceblue;
+    right: 10px;
+    bottom: 10px;
+    position: relative;
+    gap: 5px;
+}
+.hello p, h1{
+    text-align: center;
+    color: #fff;
+}
+
+.hello img{
+    width: 150px;
+    height: 150px;
+}
+
+.blog{
+    width: 50px;
+    height: 50px;
+}
+
+
+.i-dois{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+.i-tres{
+    font-size: 100px;
+    transition: 0.5s;
+    color: rgb(73, 170, 73);
+}
+.i-quatro{
+    font-size: 50px;
+    transition: 0.5s;
+    color: rgb(73, 170, 73);
+}
+
+.angles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.i-tres:hover {
+    font-size: 110px;
+}
+
+.worker-img{
+    max-width: 350px;
+}
+
+@keyframes angleDown{
+    from{
+        font-size: 0px;
+    }
+    to{
+        font-size: 100px;
+    }
+}
+
+.downAnimation{
+    animation: angleDown 4s 1s normal;
+}
+
